@@ -1,0 +1,25 @@
+{
+  "name": "Landing",
+  "version": "0.0.0",
+  "authors": [
+    "felixs8696 <felixs8696@berkeley.edu>"
+  ],
+  "description": "Felix's Landing page",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
