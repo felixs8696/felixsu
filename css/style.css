@@ -279,6 +279,97 @@ section.module .temp-text p {
 section.module .blog-post p {
   font-size: 18px;
   line-height: 1.5em;
-  font-weight: 200;
+  font-weight: 300;
   font-family: Lato, Roboto, sans-serif;
+}
+
+.horizontal-scroller {
+  height: 636px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap !important;
+}
+
+.portfolio-picture-set {
+  display: inline-block;
+  height: 100%;
+  position: relative;
+}
+
+.portfolio-picture {
+  height: 50%;
+  overflow-y: hidden;
+}
+
+.arrow-container {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: block;
+}
+
+.left-arrow {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: block;
+  float: left;
+  left: 20px;
+  background: no-repeat url('../img/assets/left_chevron.png');
+  background-size: 100% 100%;
+  opacity: .6;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.right-arrow {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: block;
+  float: right;
+  right: 20px;
+  background: no-repeat url('../img/assets/right_chevron.png');
+  background-size: 100% 100%;
+  opacity: .6;
+  cursor: pointer;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.left-arrow:hover {
+  opacity: 1;
+}
+
+.right-arrow:hover {
+  opacity: 1;
+}
+
+.portfolio-window {
+  position: relative;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
