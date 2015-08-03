@@ -370,6 +370,10 @@ section.module .blog-post p {
 }
 
 body {
-  width: 100%;
   overflow-x: hidden;
 }
+
+/*html {*/
+  /*position: absolute;*/
+  /*left: 15px;*/
+/*}*/
