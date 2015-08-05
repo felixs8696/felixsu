@@ -1,0 +1,9 @@
+[submodule "Namebow"]
+	path = Namebow
+	url = ./Namebow/
+[submodule "WordCount"]
+	path = WordCount
+	url = https://github.com/felixs8696/felixsu.git/
+[submodule "TheCaptionButton"]
+	path = TheCaptionButton
+	url = https://github.com/felixs8696/felixsu.git/
